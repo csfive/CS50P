@@ -1,5 +1,3 @@
-s = input("File name: ").strip().lower().split(".")[-1]
-
 types = {
     "gif": "image/gif",
     "jpg": "image/jpeg",
@@ -10,5 +8,5 @@ types = {
     "zip": "application/zip",
 }
 
-type = types.get(s, "application/octet-stream")
-print(f"{type}")
+s = input("File name: ").strip().lower().split(".")[-1]
+print(types.get(s, "application/octet-stream"))

@@ -6,7 +6,7 @@ s = (
     .lower()
 )
 
-if s == "42" or s == "forty two" or s == "forty-two":
+if s in ["42", "forty two", "forty-two"]:
     print("Yes")
 else:
     print("No")
