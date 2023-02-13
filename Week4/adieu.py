@@ -1,4 +1,4 @@
-import inflect  # pip install inflect
+import inflect
 
 p = inflect.engine()
 names = []

@@ -1,5 +1,4 @@
-from pyfiglet import Figlet  # pip install pyfiglet
-import sys
+from pyfiglet import Figlet
 import random
 
 fonts = Figlet().getFonts()

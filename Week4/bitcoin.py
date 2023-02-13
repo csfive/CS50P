@@ -1,7 +1,6 @@
 import sys
 import requests
 
-
 try:
     response = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
     data = response.json()

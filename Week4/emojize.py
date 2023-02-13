@@ -1,3 +1,3 @@
-from emoji import emojize  # pip install emoji
+from emoji import emojize
 
 print("Output:", emojize(input("Input: ")))
