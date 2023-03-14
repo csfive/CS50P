@@ -9,8 +9,7 @@ Harvard CS50 Python — 2022
 </h1>
 
 <p align="center">
-  <a href="https://cs50.harvard.edu/python">Course Link</a> |
-  <a href="https://github.com/mancuoj/CS50x">CS50x</a>
+  <a href="https://cs50.harvard.edu/python">Course Link</a>
 </p>
 
 
