@@ -19,7 +19,7 @@ Harvard CS50 Python — 2022
 For Reference Only
 </pre>
 
-Spent five days of my free time to quickly finish it, and completed all the assignments. The next stop is still [CS61A](https://github.com/mancuoj/CS61A).
+Spent five days of my free time to quickly finish it, and completed all the assignments.
 
 
 <a href="https://certificates.cs50.io/dd9df8fd-2f35-4c6f-a8da-b89957016f64.png">
