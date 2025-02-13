@@ -6,6 +6,8 @@ types = {
     "pdf": "application/pdf",
     "txt": "text/plain",
     "zip": "application/zip",
+    "mp4": "video/mp4",
+    "csv": "text/csv",
 }
 
 s = input("File name: ").strip().lower().split(".")[-1]
