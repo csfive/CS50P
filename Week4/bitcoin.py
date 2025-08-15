@@ -4,7 +4,7 @@ import requests
 try:
     response = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
     data = response.json()
-    current_price = float(data["bpi"]["USD"]["rate_float"]) 
+    current_price = float(data["bpi"]["USD"]["rate_float"])
 except requests.RequestException:
     sys.exit()
 
