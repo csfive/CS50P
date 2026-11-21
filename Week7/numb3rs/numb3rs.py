@@ -1,3 +1,4 @@
+
 import re
 
 
@@ -6,12 +7,9 @@ def main():
 
 
 def validate(ip):
-    if not re.match(r"^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$", ip):
-        return False
-    for num in ip.split("."):
-        if int(num) < 0 or int(num) > 255:
-            return False
-    return True
+    pattern = r"^(?:(?:25[0-5]|2[0-4]\d|1\d\d|[1-9]\d|[0-9])\.){3}(?:25[0-5]|2[0-4]\d|1\d\d|[1-9]\d|[0-9])$"
+
+    return bool(re.fullmatch(pattern, ip))
 
 
 if __name__ == "__main__":
